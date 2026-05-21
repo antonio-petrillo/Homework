@@ -119,20 +119,25 @@ I don't understand why the _correct_ solution for exercise $6$ is $root(6, 18)/2
   $ log_3(3^a) = log_3(2^102) arrow.l.r.double a = 102 dot 0.631 approx 64.362  arrow.l.r.double a = 65$
 + $log_6 2 + log_6 3 = 1 arrow.l.r.double log_6(2 dot 3) = log_6 6 = 1$
 
-Exercise $15$ and $16$ I used the properties of logarithms $log_a b^n = n log_a b$ and $log_a b c = log_a b + log_a c$ that shall be proven:
-
+#v(50pt)
+== Note
+In exercise $15$ and $16$ I used the properties of logarithms $log_a b^n = n log_a b$ and $log_a b c = log_a b + log_a c$ that shall be proven:
+#v(3%)
 Property $log_a b ^ n = n log_a b$: \
-$ log_a b = c arrow.l.r.double n log_a b = n c "and" a^c = b arrow.l.r.double a^c^n = a^(c n) = b ^ n $
+$ log_a b = c arrow.l.r.double n log_a b = n c "and" a^c = b arrow.l.r.double a^c^n = b^n arrow.l.r.double a^(c n) = b ^ n $
 Passing to the logarithm form for the second equality we get
 $ log_a b^n = c n $
 Combining with the first equality
 $ log_a b ^ n = c n = n log_a b $
 
+#v(3%)
 Property $log_a b c  = log_a b + log_a c$: 
 - $x = log_a b arrow.l.r.double a^x = b$ 
 - $y = log_a c arrow.l.r.double a^y = c$
 
-$ b c = a^x a^y = a^(x + y) \ log_a b c = log_a a^(x + y) = x + y $
+$ b c = a^x a^y = a^(x + y) \ log_a b c = log_a a^(x + y) = (x + y) log_a a = x + y $
+
+#pagebreak()
 
 = Chapter 2
 
@@ -222,3 +227,86 @@ $ overline(z + 3i) = z - 3i  $
 Hence the correct answer is
 $ overline(overline(z) + 3i) = overline(overline(z)) + overline(3i) = z - 3i  $
 The answer is *True*.
+
+#pagebreak()
+
+= Chapter 3
+== Exercise 3-1 Page 18
+$ 3y + 2 = y - 3 + 4y \
+-2 y = -5 \
+y = 5/2 \
+y = 2.5 $
+
+== Exercise 3-2 Page 18
+$ 2/3 y - 3 = y \
+2y -9 = 3y\
+y = -9 $
+
+== Exercise 3-3 Page 21
++ Problem 1
+  $ 3x &= 5 + 2y\
+  2x - 2y &= 7 $
+  Move all the variables on the same side:
+  $ 3x - 2y &= 5\
+  2x - 2y &= 7
+  $
+  Subtract the second from the first:
+  $ x = -2 $
+  Plugging back $x = -2$ into the second we get
+  $ -4 - 2y = 7 \
+  2y = -11 \
+  y = -11/2 \
+  y = 5.5
+  $
+
++ Problem 2
+  $ x/2 + 3y &= 4 \
+  x + 6y &= 9 \ \
+  x + 6 y &= 8 \
+  x + 6y &= 9 $
+
+  The system has no solution.
+
++ Problem 3
+  $ 0.1x + y &= 3 \ 0.5x - 3y &= 7 \ \  x + 10 y & = 30 \ x - 6y &= 14  \ \
+  "Subtract the second from the first" \ \
+  16 y = 16 arrow.l.r.double y = 1 \ \
+  "Now we can calculate x" \ \
+  x = 20 \ \
+  "Hence" (x, y) = (20, 1)
+  $
+
++ Problem 4
+  $ x - y &= 2x + 3 \ x - 2y &= 5 - 3y \ \ -x + y &= 3 \ x + y &= 5 $
+  This problem has not solutions.
+
+== Exercise 3-5
+Without loss of generalization, assume $x$ is the distance between Jim and the house of his mother. If Jim goes at $40 "mph"$ then to travel to his mother it require time $t_"go" = x / (40 "mph")$ and $t_"back" = x / (20 "mph")$ hence $t_"total" = x / 40 + x / 20 = 3x / 40$. At last the average speed is: $ 2x / t = 2x / (3/40 x) = 2cancel(x) / (3/40 cancel(x)) = 2 dot 40/3 = 80 / 3 $
+Note that the distance $x$ doesn't influence the result, hence it is independent from it.
+
+== Exercise 3-6
+- upstream 2 hours
+- downstream 3 hours
+- rate of the current $2 "mph"$
+- $20$ miles downstream
+- how many hours to paddle back to origin
+
+For what the problem says I can infer that the distance covered upstream is given by $(v - 2) 2$ and the speed downstream is $(v + 2) 3$, the key here is that we know the difference (in distance terms) from when she stop going upstream and then downstream, so
+$ (v + 2) 3 - (v - 2) 2 arrow.l.r.double 3v + 6 -2v +4 arrow.l.r.double v = 10 $
+Her speed is $v = 10$, since now she had to go upstream again (hence her speed we go down to $x = 8$) for $20$ miles, she has to paddle for $ 8 h = 20 \ h = 20/8 \ h = 2.5 $
+Here I used the formulae $"rate" * "time" = "distance"$.
+
+== Exercise 3-7
+- $k_1$ storm the castle in $15$ days, in one day it does $1/15$ of the _"storm"_ 
+- $k_2$ can do $1/x$ of the _"storm"_ in one day
+- together they take $10 (1/15 + 1/x) = 1$, $10$ days
+
+$ 10 / x + 10/15 = 1 \  10 / x = 1 - 10/15  \ 10 / x  =  5/15  \ 10 / x = 1 / 3 \ x / 10 = 3 \ x = 30
+ $
+
+The knight $k_2$ takes $30$ day to storm the castel.
+
+PS: I never heard the expression "storm the castel".
+
+
+
