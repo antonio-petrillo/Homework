@@ -308,5 +308,152 @@ The knight $k_2$ takes $30$ day to storm the castel.
 
 PS: I never heard the expression "storm the castel".
 
+== Exercise to solve for Chapter 3
+=== Exercise 27
+$ b = g -4 $
 
+=== Exercise 28
+- $10 t + u$
+- $t = u + 4$
+- $10 t + u - 2 (10 u + t) = 10$
+
+Hence
+$ 10 t + u - 20 u -2 t = 10 \
+8 t -19 u = 10 \
+8 (u + 4) - 19u = 10 \
+8 u + 32 - 19 u = 10 \
+11 u = 22 \
+u = 2 $
+
+The final result is
+- $u = 2$
+- $t = u + 4 = 6$
+- $n = 10 t + u = 62$
+
+=== Exercise 29
+- $16$ coins 
+- all nickels and dimes
+    - nickels ($n$) are worth $0.05$
+    - dimes ($d$) are worth $0.10$
+
+Basically is a linear programming problem. 
+- $0.05 dot  n + 0.1 dot d = 1.05$
+- $n + d = 16 arrow.l.r.double n = 16 - d$
+
+Note $0.05 = 5/100 = 1/20$, $0.10 = 10/100 = 1/10$ and $1.05 = 105/100 = 21/20$ \ 
+Hence
+$
+    1/20 n + 1/10 d = 21/20 \
+    1/20 (16 - d) + 1/10 d = 21/20 \
+    4/5 - 1/20 d + 1/10 d = 21/20 \
+    1/20 (2d - d) = (21 - 16)/ 20
+    1/20 d = 5 / 20 \
+    d = 5 
+$
+From here
+$
+    n = 16 - d \
+    n = 16 - 5 \
+    n = 11
+$
+In the bank there are $11$ nickels and $5$ dimes, just to double check
+$
+    11 dot 0.05 + 5 dot 0.10 \
+    0.55 + 0.50 \
+    1.05
+$
+
+=== Exercise 30
+Let $x$ the age of Jefferson in $1748$, hence let $y = x + 11$ the age of Washington in $1748$, in $1770$ Washington was $y + 22 = x + 11 + 22 = x + 33$, at the same time in $1770$  we have $y = 7x + 3$ hence
+$
+    7x + 3 = x + 33 \
+    6x = 30 \
+    x = 5
+$
+
+So in the age of Jefferson in $1748$ was $5$ and Washington was $16$, the sum is $21$, in $1750$ we add $4$ ($2$ years for each) so the solution is $25$.
+
+=== Exercise 31
+- $66 = x + y$
+- $x = 3 + 2y$
+
+$
+    66 = (3 + 2y) + y \
+    63 = 3y \
+    y = 21 
+$
+
+Hence $x$ is
+$
+    66 = x + y \
+    x = 66 - y \
+    x = 66 - 21 \
+    x = 45
+$
+
+=== Exercise 32
+- $"onions" = o$
+- $"beans" = b$
+- $"potatoes" = p$
+
+$ cases(
+4o = 2 b,
+b = 3 p,
+o = 2p - 4,
+)
+
+arrow.r
+
+cases(
+4o = 6p,
+b = 3p,
+o = 2p - 4,
+) 
+
+arrow.r
+
+cases(
+o = 3/2 p,
+b = 3p,
+3/2 p = 2p - 4,
+) 
+
+arrow.r
+
+cases(
+o = 3/2 p,
+b = 3p,
+p = 8,
+) 
+
+arrow.r
+
+cases(
+o = 12,
+b = 24,
+p = 8,
+)
+$
+
+=== Exercise 33
+Let $a, b$ the two successive odd numbers, they can be expressed as $a = 2x + 1, b = 2x + 3$
+$
+    (2x + 1) + 2x + 3 + 7 = 1/3 (2x + 1) + 2 (2x + 3) \
+    cancel(4x) + cancel(11)_5 = 2/3 x + 1/ 3 + cancel(4x) + cancel(6) \
+    15 = 2x + 1 \
+    2x = 14 \
+    x = 7
+$
+
+The solutions is $a = 2 dot 7 + 1 = 15, b = 2 dot 7 + 3 = 17$
+
+=== Exercise 34
+Let $x$ be the points of the Croatia and $y$ the points of the USA, $y = 4 dot x$ and $3(x + 3) = y$
+
+$
+    4 x = 3x + 9 \
+    x = 9
+$
+
+Hence $y = 36$
 
